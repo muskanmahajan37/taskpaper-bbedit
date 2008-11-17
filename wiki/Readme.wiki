@@ -3,7 +3,7 @@
 
 == Introduction ==
 
-From the [http://hogbaysoftware.com/products/taskpaper TaskPaper] website:
+From the [http://www.hogbaysoftware.com/products/taskpaper TaskPaper] website:
 
  "!TaskPaper is a simple to-do list application that helps you stay organized.
  Unlike competing applications, !TaskPaper is based on plain text files which
@@ -24,18 +24,18 @@ version of BBEdit.
 
 == Installation ==
 
-To install, copy the file '!TaskPaper.plist' to:
+To install, copy the file _!TaskPaper.plist_ to:
 
  `~/Library/Application Support/BBEdit/Language Modules/`
 
-and relaunch BBEdit. To install for use with TextWrangler, copy here:
+and relaunch BBEdit. To install for use with !TextWrangler, copy here:
 
  `~/Library/Application Support/TextWrangler/Language Modules/`
 
-and relaunch TextWrangler.
+and relaunch !TextWrangler.
 
 To color !TaskPaper project names as keywords, add their names to the
-`BBLMKeywordList` in file '!TaskPaper.plist'.
+`BBLMKeywordList` in file _!TaskPaper.plist_.
 
 
 == Syntax ==
@@ -111,7 +111,7 @@ The authors of this BBEdit codeless language module are Matthias Steffens and
 Dennis Rande.
 
 For all information regarding the !TaskPaper application itself please visit the
-[http://hogbaysoftware.com/products/taskpaper/ TaskPaper home page].
+[http://www.hogbaysoftware.com/products/taskpaper TaskPaper home page].
 
 
 == Version History ==
@@ -123,10 +123,10 @@ For all information regarding the !TaskPaper application itself please visit the
  * added more characters to the `Identifier and Keyword Character Class` property
  * added several new keywords for project names
  * changed value of `BBLMIsCaseSensitive` property from `true` to `false`
- * shortened value of `BBLMLanguageDisplayName` property to "TaskPaper"
+ * shortened value of `BBLMLanguageDisplayName` property to "!TaskPaper"
  * added a few extra language suffixes
  * wrapped regular expressions as CDATA for improved legibility
- * improved syntax checking of TaskPaper notes
+ * improved syntax checking of !TaskPaper notes
 
 === Version 1.0 (29-Oct-2007) ===
 
